@@ -1,0 +1,400 @@
+/* Extra large devices */
+@media (max-width: 1200px) {
+    .main {
+        height: 600px;
+        padding-bottom: 10%;
+    }
+    .main-box-content-heading {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .sec-heading ,.third-heading{
+        font-size: 22px;
+       
+        margin-top: 22px;
+    }
+    .email-get-start {
+       margin-top: 20px;
+    }
+    .hero-box-section {
+       
+        height: 500px;
+    }
+    .hero-text h2 {
+        font-weight: 700;
+        font-size: 42px;
+    }
+    
+    .hero-text p {
+        font-weight: 350;
+        font-size: 20px;
+    }
+    .hero-video {
+        height: 63%;
+        position: absolute;
+        right: 7px;
+        top: 67px;
+    }
+    .third .hero-video {
+        height: 42%;
+        position: absolute;
+        right: 102px;
+        top: 43px;
+    }
+
+    .faq h2 {
+        font-weight: 700;
+        font-size: 42px;
+    }
+  }
+  @media (max-width: 992px) {
+    .main {
+        height: 520px;
+        padding-bottom: 7%;
+    }
+    .email-get-start {
+        flex-direction: column;
+    }
+    #email {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+   
+    .main-box-content-heading {
+        font-size: 36px;
+        text-align: center;
+    }
+    .sec-heading ,.third-heading{
+        font-size: 18px;
+       text-align: center;
+        margin-top: 20px;
+    }
+    .email-get-start {
+       margin-top: 20px;
+    }
+    .hero-box-section {
+       
+        height: 750px;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .hero-text h2 {
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+        
+    }
+    .hero-text{
+        width: 100%;
+       }
+    .hero-img{
+        width: 80%;
+    }
+    
+    .hero-text p {
+        /* font-weight: 350; */
+        font-size: 17px;
+        text-align: center;
+        margin-top: 0px;
+   
+    }
+    .bottom-heading h2{
+margin-bottom: 20px;
+    }
+    .bottom-heading p{
+        margin-bottom: 30px;
+            }
+    .hero-video {
+        height: 63%;
+        right: 10px;
+        top: 55px;
+    }
+    .third .hero-video {
+        height: 42%;
+        right: 124px;
+        top: 52px;
+    }
+    .faq h2 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+.faq p,.fa-solid{
+    font-size: 18px;
+}
+.ready-to-watch{
+   margin: 25px 0 25px 0;
+}
+.footer {
+    width: 85%;
+}
+.footer-box ul li{
+    font-size: 14px;
+     
+ }
+ .netflix-india{
+    font-size: 14px;
+
+} 
+.number{
+    font-size: 15px;
+ }
+
+ /* footer practices*/
+
+    .footer-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px; /* Adds gap between items */
+    }
+    
+    .footer-box {
+        flex: 1 0 calc(50% - 10px); /* Calculate width to account for gap */
+        box-sizing: border-box;
+    }
+    
+    .footer-box ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .footer-box li {
+        margin:  0;
+    }
+}
+
+/* Medium devices */
+@media (max-width: 768px) {
+    .main {
+        height: 500px;
+        padding-bottom: 10%;
+    }
+    #email {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+   
+    .main-box-content-heading {
+        font-size: 30px;
+        text-align: center;
+    }
+    .sec-heading ,.third-heading{
+        font-size: 16px;
+       text-align: center;
+        margin-top: 15px;
+    }
+    .email-get-start {
+       margin-top: 15px;
+       width: 70%;
+    }
+    #email {
+        height: 40px;
+        padding: 8px 13px 0px 16px;
+        font-size: 11px;
+    }
+    #get-started {
+
+        height: 40px;
+        min-width: 150px;
+    
+    }
+    .hero-box-section {
+       
+        height: 530px;
+    }
+    .hero-text h2 {
+        font-size: 28px;
+        
+    }
+    .hero-text{
+        width: 100%;
+       }
+    
+    
+    .hero-text p {
+        /* font-weight: 350; */
+        font-size: 16px;
+        
+    }
+    .bottom-heading h2{
+margin-bottom: 15px;
+    }
+.bottom-heading p{
+    margin-bottom: 30px;
+}
+.hero-video {
+height: 63%;
+right: 5px;
+top: 66px;
+            }
+.third .hero-video {
+height: 42%;
+right: 96px;
+top: 38px;
+}
+  }
+/* Small devices */
+@media (max-width: 576px) {
+    .main {
+        height: 459px;
+        padding-bottom: 22%;
+    }
+   
+   
+    .main-box-content-heading {
+        font-size: 28px;
+        text-align: center;
+    }
+    .sec-heading ,.third-heading{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .email-get-start {
+       margin-top: 10px;
+       width: 80%;
+    }
+    #email {
+        height: 40px;
+        padding: 8px 13px 0px 16px;
+        font-size: 11px;
+    }
+    #get-started {
+
+        height: 40px;
+        min-width: 150px;
+    
+    }
+    .hero-box-section {
+       
+        height: 460px;
+    }
+    
+    
+    
+    .hero-text p {
+        font-size: 15px;
+        
+    }
+    .bottom-heading h2{
+margin-bottom: 15px;
+    }
+.bottom-heading p{
+    margin-bottom: 30px;
+}
+
+.hero-video {
+height: 63%;
+right: -1px;
+top: 66px;
+            }
+.third .hero-video {
+height: 42%;
+right: 85px;
+top: 38px;
+}
+
+
+.faq h2 {
+    font-weight: 500;
+    font-size: 26px;
+}
+.faq p,.fa-solid{
+font-size: 15px;
+}
+.ready-to-watch{
+margin: 25px 0 25px 0;
+}
+.footer {
+width: 85%;
+}
+.footer-box ul li{
+font-size: 14px;
+ 
+}
+.netflix-india{
+font-size: 14px;
+
+} 
+.number{
+font-size: 15px;
+}
+.netflix-logo {
+    height: 25px;
+   
+}
+  }
+
+  @media (max-width: 460px){
+
+    .main {
+        height: 433px;
+        padding-bottom: 17%;
+    }
+   
+    .main-box-content-heading {
+        font-size: 24px;
+    }
+    .sec-heading ,.third-heading{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+   
+   
+    .hero-box-section {
+       
+        height: 390px;
+    }
+    
+    
+    
+    .hero-text h2 {
+        font-size: 22px;
+        
+    }
+    
+    
+    
+    .hero-text p {
+        /* font-weight: 350; */
+        font-size: 14px;
+        
+    }
+
+    .hero-video {
+        height: 63%;
+        right: 3px;
+        top: 34px;
+    }
+    .third .hero-video {
+        height: 39%;
+        right: 73px;
+        top: 27px;
+    }
+
+.faq h2 {
+    font-weight: 500;
+    font-size: 22px;
+}
+.faq p,.fa-solid{
+font-size: 14px;
+}
+.ready-to-watch{
+margin: 25px 0 25px 0;
+}
+
+.footer-box ul li{
+font-size: 14px;
+ 
+}
+.netflix-india{
+font-size: 14px;
+
+} 
+.ques-box {
+    padding: 0 22px;
+    height: 50px;
+}
+.number{
+font-size: 15px;
+}
+
+  }
